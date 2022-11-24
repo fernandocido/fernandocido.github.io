@@ -9,6 +9,7 @@ function darkMode() {
       document.getElementById('img-location').src = "img/location-128px-dark.png";
       document.getElementById('img-linkedin').src = "img/linkedin-128px-dark.png";
       document.getElementById('img-github').src = "img/github-128px-dark.png";
+      document.getElementById('img-vsco').src = "img/vsco-128px-dark.png";
       document.getElementById('img-instagram').src = "img/instagram-128px-dark.png";
       document.getElementById('img-twitter').src = "img/twitter-128px-dark.png";
       document.getElementById('img-lattes').src = "img/lattes-128px-dark.png";
@@ -23,6 +24,7 @@ function darkMode() {
       document.getElementById('img-location').src = "img/location-128px-light.png";
       document.getElementById('img-linkedin').src = "img/linkedin-128px-light.png";
       document.getElementById('img-github').src = "img/github-128px-light.png";
+      document.getElementById('img-vsco').src = "img/vsco-128px-light.png";
       document.getElementById('img-instagram').src = "img/instagram-128px-light.png";
       document.getElementById('img-twitter').src = "img/twitter-128px-light.png";
       document.getElementById('img-lattes').src = "img/lattes-128px-light.png";
