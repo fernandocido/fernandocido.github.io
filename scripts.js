@@ -13,6 +13,7 @@ function darkMode() {
       document.getElementById('img-bmc').src = "assets/img/bmc2.png";
       document.getElementById('img-steam').src = "assets/img/steam2.png";
       document.getElementById('img-insta').src = "assets/img/insta2.png";
+      document.getElementById('img-discord').src = "assets/img/discord2.png";
       light = 1;
     }
     
@@ -25,6 +26,7 @@ function darkMode() {
       document.getElementById('img-bmc').src = "assets/img/bmc.png";
       document.getElementById('img-steam').src = "assets/img/steam.png";
       document.getElementById('img-insta').src = "assets/img/insta.png";
+      document.getElementById('img-discord').src = "assets/img/discord.png";
       light = 0;
     }
 }
