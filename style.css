@@ -1,0 +1,81 @@
+a { 
+    color: lightseagreen; 
+    text-decoration: none;
+    padding: 4px;
+}
+
+a:link {
+    color: lightseagreen;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: inherit;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+	margin-top: 45px;
+}
+
+#places {
+    text-decoration: none;
+}
+
+#profile-picture {
+    border-radius: 50%;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.darkMode {
+    background-color: black;
+    color: white;
+}
+
+.flag {
+    margin-right: 5px;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-20px);} 
+    60% {transform: translateY(-10px);}
+
+}
+
+@media (min-width: 480px) {
+    .responsive {
+       margin-left: 25%;
+       margin-right: 25%;
+    }
+}
